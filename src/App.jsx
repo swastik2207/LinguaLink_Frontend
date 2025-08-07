@@ -7,7 +7,7 @@ import LoginPage from './pages/LoginPage.jsx';
 import CallPage from './pages/CallPage.jsx'
 import ChatPage from './pages/ChatPage.jsx'
 import OnboardingPage from './pages/OnboardingPage.jsx'
-import HomePage from './pages/Homepage.jsx'
+import HomePage from './pages/HomePage.jsx'
 import { Toaster } from "react-hot-toast"; // 👈 import Toaster
 import NotificationsPage from "./pages/NotificationPage.jsx"
 import Layout from './components/Layout.jsx';
