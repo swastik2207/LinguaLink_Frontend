@@ -1,13 +1,13 @@
 import React from 'react'
 import { Navigate, Route, Routes } from "react-router";
 import useAuthUser from "./hooks/useAuthUser.js";
-import { useThemeStore } from "./store/useThemeStore.js";
+import { useThemeStore } from "./store/useThemeStore";
 import SignUpPage from './pages/SignUpPage.jsx';
 import LoginPage from './pages/LoginPage.jsx';
 import CallPage from './pages/CallPage.jsx'
 import ChatPage from './pages/ChatPage.jsx'
 import OnboardingPage from './pages/OnboardingPage.jsx'
-import HomePage from './pages/HomePage.jsx'
+import HomePage from './pages/Homepage.jsx'
 import { Toaster } from "react-hot-toast"; // 👈 import Toaster
 import NotificationsPage from "./pages/NotificationPage.jsx"
 import Layout from './components/Layout.jsx';

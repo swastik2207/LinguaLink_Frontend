@@ -5,7 +5,7 @@ import { useNavigate } from "react-router";
 
 const ProfilePage = () => {
     const { authUser, isLoading } = useAuthUser();
-    const navigate = useNavigate();
+    
 
     if (isLoading) return <PageLoader />;
     if (!authUser) return <div className="p-4 text-center text-red-500">User not found 😕</div>;
