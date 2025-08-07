@@ -10,7 +10,7 @@ import OnboardingPage from './pages/OnboardingPage.jsx'
 import HomePage from './pages/HomePage.jsx'
 import { Toaster } from "react-hot-toast"; // 👈 import Toaster
 import NotificationsPage from "./pages/NotificationPage.jsx"
-import Layout from './components/Layout.jsx';
+import Layout from './components/layout.jsx';
 import PageLoader from './components/PageLoader.jsx';
 import FriendPage from './pages/FriendPage.jsx';
 import ProfilePage from './pages/ProfilePage.jsx'
